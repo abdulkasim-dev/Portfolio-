@@ -4,9 +4,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Layers, ArrowUpRight, Check, Sparkles, Shield, Cpu, Zap } from "lucide-react";
 
-interface ProjectsProps {
-  currentPersona: "backend" | "fullstack";
-}
 
 const PROJECTS = [
   {
@@ -71,7 +68,7 @@ const PROJECTS = [
   }
 ];
 
-export function Projects({ currentPersona }: ProjectsProps) {
+export function Projects() {
   const [filter, setFilter] = useState<"all" | "backend" | "fullstack">("all");
 
   const filteredProjects = PROJECTS.filter((p) => {

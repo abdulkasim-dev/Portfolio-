@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Terminal, Sparkles, Cpu, Globe, Server, Zap } from "lucide-react";
+import { ArrowRight, Mail, Sparkles, Cpu, Globe, Server, Zap } from "lucide-react";
 
 export function Hero() {
   return (
@@ -70,8 +70,8 @@ export function Hero() {
             href="#contact"
             className="px-6 py-3.5 rounded-full bg-zinc-900 border border-white/10 text-zinc-200 font-medium text-sm hover:border-white/20 hover:text-white transition-all flex items-center gap-2"
           >
-            <Terminal className="w-4 h-4 text-zinc-400" />
-            <span>Interactive Terminal</span>
+            <Mail className="w-4 h-4 text-zinc-400" />
+            <span>Get in Touch</span>
           </a>
         </motion.div>
 

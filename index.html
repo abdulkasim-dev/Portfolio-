@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Kasim Ajmal Khan | Software Engineer | Python Full-Stack</title>
+  <meta name="description" content="Portfolio of Abdul Kasim Ajmal Khan - Software Engineer specializing in Python, FastAPI, Next.js, Celery, Redis, and high-performance web systems.">
+  <meta name="keywords" content="Abdul Kasim Ajmal Khan, Software Engineer, Python Developer, FastAPI, Next.js, Full Stack, Celery, Redis, Chennai">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Abdul Kasim Ajmal Khan | Software Engineer">
+  <meta property="og:description" content="Python Full-Stack Developer specializing in FastAPI, Next.js, Celery asynchronous workflows, and AI integrations.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Space Grotesk + Syne (Austin Werner typography match) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Ambient Background Gradients -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- FIXED GLASSMORPHISM HEADER -->
+  <header class="aw-header" id="header">
+    <div class="aw-header-inner">
+      <a href="#hero" class="aw-brand" aria-label="Home">
+        <span class="brand-monogram">AK</span>
+        <span class="brand-text">ABDUL KASIM<span class="brand-sub">.DEV</span></span>
+      </a>
+
+      <nav class="aw-nav" aria-label="Main Navigation">
+        <a href="#specializations" class="aw-nav-link">Specialization</a>
+        <a href="#projects" class="aw-nav-link">Production</a>
+        <a href="#stack" class="aw-nav-link">Tech Stack</a>
+        <a href="#experience" class="aw-nav-link">Experience</a>
+        <a href="#contact" class="aw-nav-link">Connect</a>
+      </nav>
+
+      <div class="aw-status-pill">
+        <span class="pulse-indicator"></span>
+        <span class="status-text">Open to Offers // 2026</span>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#specializations" class="mobile-link">01 // Specialization</a>
+      <a href="#projects" class="mobile-link">02 // Production Systems</a>
+      <a href="#stack" class="mobile-link">03 // Tech Matrix</a>
+      <a href="#experience" class="mobile-link">04 // Experience</a>
+      <a href="#contact" class="mobile-link">05 // Terminal Connect</a>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-header-meta">
+        <span class="section-tag-gold">00 // INITIALIZE PROFILE</span>
+        <span class="meta-location">CHENNAI, TN, INDIA • +91 9750902696</span>
+      </div>
+
+      <!-- ROLE PERSONA SWITCHER (Austin Werner Signature Feature) -->
+      <div class="persona-switch-wrapper">
+        <div class="persona-switcher" role="tablist" aria-label="Role Focus Switcher">
+          <button class="persona-btn active" id="btn-backend" role="tab" aria-selected="true" data-mode="backend">
+            <span class="persona-icon-dot orange"></span>
+            <span>Mode: Python & Backend Architecture</span>
+          </button>
+          <button class="persona-btn" id="btn-fullstack" role="tab" aria-selected="false" data-mode="fullstack">
+            <span class="persona-icon-dot cyan"></span>
+            <span>Mode: Full-Stack & Modern Web</span>
+          </button>
+        </div>
+        <span class="switcher-hint">Switch mode to toggle core architecture focus</span>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">
+          ENGINEERING <span class="highlight-text" id="dynamic-headline">SCALABLE BACKEND APIS</span> & RESILIENT WEB SYSTEMS.
+        </h1>
+        <p class="hero-desc">
+          I am <strong>Abdul Kasim Ajmal Khan</strong>, a Software Engineer with production expertise spanning 
+          <span class="code-span">Python</span>, <span class="code-span">FastAPI</span>, <span class="code-span">Next.js</span>, 
+          and asynchronous queue architectures (<span class="code-span">Celery + Redis</span>). Building enterprise CRM workflows, 
+          programmatic SEO engines, and LLM-powered OCR pipelines.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="aw-pill-btn gold">
+            <span class="btn-text">Explore Production Systems</span>
+            <span class="btn-arrow-circle">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M2 8H14M14 8L8 2M14 8L8 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+          </a>
+
+          <a href="#contact" class="aw-pill-btn outlined">
+            <span class="btn-text">Initiate Contact</span>
+            <span class="btn-arrow-circle">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M2 8H14M14 8L8 2M14 8L8 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- STATS STRIP (Austin Werner Metric Banners) -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">100+</div>
+          <div class="stat-label">Programmatic SSG Hubs Built</div>
+          <div class="stat-desc">Next.js Static Site Generation with automated XML sitemaps</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">3+</div>
+          <div class="stat-label">Production Client Platforms</div>
+          <div class="stat-desc">OnCampusERP, ParcelGoGlobal, Rajwaa & Enterprise apps</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">Async</div>
+          <div class="stat-label">Celery & Redis Pipelines</div>
+          <div class="stat-desc">Zero-block background notifications (Twilio, SendGrid, MSG91)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">AI OCR</div>
+          <div class="stat-label">Gemini & OpenAI Integrations</div>
+          <div class="stat-desc">Autonomous financial cheque processing & dynamic form logic</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 01: SPECIALIZATIONS -->
+    <section class="section-block" id="specializations">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <div>
+          <h2 class="section-heading">Architectural Specializations</h2>
+          <p class="section-subtext">Deep-dive into my primary engineering pillars and system design patterns.</p>
+        </div>
+      </div>
+
+      <div class="cards-grid-3">
+        <div class="spec-card">
+          <div class="spec-icon orange-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </div>
+          <h3 class="spec-title">High-Efficiency Backend & APIs</h3>
+          <p class="spec-desc">
+            Constructing type-safe, asynchronous REST endpoints in <strong>FastAPI</strong> and Python. 
+            Handling complex transactional fee calculations, dynamic rules engines, and robust JWT/CORS security layers.
+          </p>
+          <ul class="spec-bullets">
+            <li>FastAPI & Async IO Endpoints</li>
+            <li>PostgreSQL & MongoDB Schemas</li>
+            <li>API Authentication & Security Protocols</li>
+          </ul>
+        </div>
+
+        <div class="spec-card">
+          <div class="spec-icon cyan-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3 class="spec-title">Next.js & Modern Frontend Architecture</h3>
+          <p class="spec-desc">
+            Developing responsive, accessible single-page and statically-generated web applications using 
+            <strong>React 18/19</strong>, <strong>Next.js</strong>, and <strong>TypeScript</strong> with modular component design.
+          </p>
+          <ul class="spec-bullets">
+            <li>Static Site Generation (SSG) & Dynamic Routing</li>
+            <li>State Architecture & Form Builders</li>
+            <li>Technical SEO, Structured Data & Web Vitals</li>
+          </ul>
+        </div>
+
+        <div class="spec-card">
+          <div class="spec-icon gold-glow">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <h3 class="spec-title">Async Workflows & Payment Integrations</h3>
+          <p class="spec-desc">
+            Decoupling long-running tasks via <strong>Celery & Redis</strong> message queues. Implementing multi-channel 
+            notifications (SendGrid, Twilio, MSG91) and localized <strong>Razorpay</strong> multi-currency payments.
+          </p>
+          <ul class="spec-bullets">
+            <li>Celery Task Scheduling & Retry Strategies</li>
+            <li>Razorpay Webhooks & Currency Conversion</li>
+            <li>Multi-channel SMS, Email & WhatsApp Automation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02: PRODUCTION SYSTEMS & PROJECTS -->
+    <section class="section-block" id="projects">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <div>
+          <h2 class="section-heading">Featured Production Systems</h2>
+          <p class="section-subtext">Commercial applications engineered at Annular Technologies for live enterprise clients.</p>
+        </div>
+      </div>
+
+      <div class="projects-container">
+        
+        <!-- PROJECT 01: OnCampusERP -->
+        <article class="project-card" data-category="backend">
+          <div class="project-header">
+            <div class="project-meta-left">
+              <span class="project-index">01 // ENTERPRISE CRM & WORKFLOW ENGINE</span>
+              <span class="pill-badge orange">Python • FastAPI • AI OCR</span>
+            </div>
+            <span class="status-live-indicator">LIVE CLIENT PLATFORM</span>
+          </div>
+
+          <div class="project-body">
+            <div class="project-info">
+              <h3 class="project-name">OnCampusERP — Campus Workflow & Intelligent Finance Engine</h3>
+              <p class="project-summary">
+                Contributed to the core engineering of an enterprise university ERP and admissions CRM. 
+                Designed sophisticated fee installment calculations, late-payment rules logic, dynamic form builders, 
+                and integrated Google Gemini & OpenAI models for automated cheque OCR verification.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">Google Gemini API</span>
+                <span class="tech-tag">OpenAI API</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Celery</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">React.js</span>
+              </div>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <span class="highlight-val">AI Cheque OCR</span>
+                  <span class="highlight-txt">Integrated Gemini & OpenAI APIs to parse financial instruments automatically</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-val">Dynamic CRM</span>
+                  <span class="highlight-txt">Configurable admission pipelines and nested fee installment calculators</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-val">Multi-Channel</span>
+                  <span class="highlight-txt">Asynchronous alerts via SendGrid, Twilio, and MSG91 (WhatsApp/SMS)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-sidebar">
+              <div class="sidebar-box">
+                <div class="box-title">Key Responsibilities</div>
+                <ul class="box-list">
+                  <li>Engineered backend business logic for fee installment schedules and penal late-fee computations.</li>
+                  <li>Implemented asynchronous background worker queues using Celery & Redis to handle high-volume notification triggers.</li>
+                  <li>Constructed reusable dynamic form components integrated with FastAPI validation endpoints.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 02: ParcelGoGlobal -->
+        <article class="project-card" data-category="fullstack">
+          <div class="project-header">
+            <div class="project-meta-left">
+              <span class="project-index">02 // PROGRAMMATIC LOGISTICS & COMMERCE</span>
+              <span class="pill-badge cyan">Next.js SSG • TypeScript • Razorpay</span>
+            </div>
+            <span class="status-live-indicator">GLOBAL TRAFFIC READY</span>
+          </div>
+
+          <div class="project-body">
+            <div class="project-info">
+              <h3 class="project-name">ParcelGoGlobal — International Cargo & Automated Booking Platform</h3>
+              <p class="project-summary">
+                Engineered over 100+ programmatically generated, airport-specific landing pages using Next.js Static Site 
+                Generation (SSG). Integrated end-to-end Razorpay international payment flows, dynamic currency converter 
+                utilities, interactive quotation forms, and automated structured XML sitemap generation.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Static Site Gen (SSG)</span>
+                <span class="tech-tag">Razorpay Gateway</span>
+                <span class="tech-tag">JSON-LD Schema</span>
+                <span class="tech-tag">Currency APIs</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <span class="highlight-val">100+ Hubs</span>
+                  <span class="highlight-txt">Pre-rendered airport logistic pages with zero-latency load times</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-val">Razorpay Pay</span>
+                  <span class="highlight-txt">Dynamic booking payments, auto currency conversion, region landing</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-val">Technical SEO</span>
+                  <span class="highlight-txt">Automated dynamic XML sitemaps, canonical tags, and rich snippet schemas</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-sidebar">
+              <div class="sidebar-box">
+                <div class="box-title">Key Responsibilities</div>
+                <ul class="box-list">
+                  <li>Architected programmatic route parameters to build 100+ localized landing experiences automatically.</li>
+                  <li>Integrated Razorpay checkout with webhook verification to confirm international bookings.</li>
+                  <li>Audited and resolved sitemap conflicts, indexing blocks, and canonical issues via Google Search Console.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 03: Multi-Client Enterprise Web Applications -->
+        <article class="project-card" data-category="fullstack">
+          <div class="project-header">
+            <div class="project-meta-left">
+              <span class="project-index">03 // ENTERPRISE CLIENT PLATFORMS</span>
+              <span class="pill-badge gold">React • Next.js • Tailwind • CI/CD</span>
+            </div>
+            <span class="status-live-indicator">PRODUCTION DEPLOYED</span>
+          </div>
+
+          <div class="project-body">
+            <div class="project-info">
+              <h3 class="project-name">Multi-Client Application Suite (Rajwaa, Epiphany, RCEW, MFDLeap)</h3>
+              <p class="project-summary">
+                Maintained, developed, and deployed high-performance responsive web applications across a portfolio of enterprise 
+                clients. Diagnosed and rectified critical runtime bugs involving CORS policies, dynamic routing mismatches, 
+                API authentication headers, and multi-environment Vercel deployments.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React.js</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Tailwind CSS</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Google Search Console</span>
+                <span class="tech-tag">Vercel Edge</span>
+              </div>
+
+              <div class="project-highlights">
+                <div class="highlight-item">
+                  <span class="highlight-val">8+ Brands</span>
+                  <span class="highlight-txt">Rajwaa, Epiphany, RCEW, LPCC, Aado, Abhinav Granites, MFDLeap, InspireLungs</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-val">Edge Deployed</span>
+                  <span class="highlight-txt">Custom domain configurations, DNS routing, and CI/CD triggers on Vercel</span>
+                </div>
+                <div class="highlight-item">
+                  <span class="highlight-val">Zero Downtime</span>
+                  <span class="highlight-txt">Cross-origin authorization resolution and secure session maintenance</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-sidebar">
+              <div class="sidebar-box">
+                <div class="box-title">Key Responsibilities</div>
+                <ul class="box-list">
+                  <li>Resolved intricate CORS, reverse-proxy, and dynamic routing issues across decoupled frontend/backend services.</li>
+                  <li>Executed production deployments, SSL configuration, and environmental variable syncs on Vercel.</li>
+                  <li>Optimized cumulative layout shifts (CLS) and largest contentful paint (LCP) across client portals.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECTION 03: TECHNICAL SKILL MATRIX -->
+    <section class="section-block" id="stack">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <div>
+          <h2 class="section-heading">Technical Matrix & Tooling</h2>
+          <p class="section-subtext">Comprehensive breakdown of languages, frameworks, databases, and DevOps tools.</p>
+        </div>
+      </div>
+
+      <div class="matrix-grid">
+        
+        <div class="matrix-category">
+          <div class="category-header">
+            <span class="cat-dot gold"></span>
+            <span class="cat-title">Core Languages</span>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Python (Primary)</span>
+            <span class="skill-pill">TypeScript</span>
+            <span class="skill-pill">JavaScript (ES6+)</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">HTML5 & CSS3</span>
+          </div>
+        </div>
+
+        <div class="matrix-category">
+          <div class="category-header">
+            <span class="cat-dot orange"></span>
+            <span class="cat-title">Backend & Asynchronous</span>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">RESTful APIs</span>
+            <span class="skill-pill">Celery Worker Queues</span>
+            <span class="skill-pill">Redis Pub/Sub & Cache</span>
+            <span class="skill-pill">API Security & CORS</span>
+            <span class="skill-pill">JWT & Auth Flow</span>
+          </div>
+        </div>
+
+        <div class="matrix-category">
+          <div class="category-header">
+            <span class="cat-dot cyan"></span>
+            <span class="cat-title">Frontend & Web App</span>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Next.js (App & Pages)</span>
+            <span class="skill-pill">React.js</span>
+            <span class="skill-pill">Static Site Gen (SSG)</span>
+            <span class="skill-pill">Tailwind CSS</span>
+            <span class="skill-pill">Responsive Design</span>
+            <span class="skill-pill">Browser DevTools</span>
+          </div>
+        </div>
+
+        <div class="matrix-category">
+          <div class="category-header">
+            <span class="cat-dot green"></span>
+            <span class="cat-title">Databases & Storage</span>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">PostgreSQL</span>
+            <span class="skill-pill">MongoDB</span>
+            <span class="skill-pill">Redis In-Memory</span>
+            <span class="skill-pill">Data Modeling</span>
+          </div>
+        </div>
+
+        <div class="matrix-category">
+          <div class="category-header">
+            <span class="cat-dot purple"></span>
+            <span class="cat-title">AI & Third-Party APIs</span>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Google Gemini API</span>
+            <span class="skill-pill">OpenAI API</span>
+            <span class="skill-pill">Razorpay Gateway</span>
+            <span class="skill-pill">Twilio (SMS/Voice)</span>
+            <span class="skill-pill">SendGrid (Email)</span>
+            <span class="skill-pill">MSG91 (WhatsApp API)</span>
+          </div>
+        </div>
+
+        <div class="matrix-category">
+          <div class="category-header">
+            <span class="cat-dot white"></span>
+            <span class="cat-title">DevOps & Tooling</span>
+          </div>
+          <div class="skills-wrap">
+            <span class="skill-pill">Git & GitHub</span>
+            <span class="skill-pill">Vercel Deployment</span>
+            <span class="skill-pill">Google Search Console</span>
+            <span class="skill-pill">XML Sitemaps</span>
+            <span class="skill-pill">Structured Data (JSON-LD)</span>
+            <span class="skill-pill">Microsoft Teams</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 04: EXPERIENCE & EDUCATION -->
+    <section class="section-block" id="experience">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <div>
+          <h2 class="section-heading">Professional Career & Education</h2>
+          <p class="section-subtext">Engineering appointments, client delivery record, and academic background.</p>
+        </div>
+      </div>
+
+      <div class="timeline-container">
+        
+        <!-- Experience Entry -->
+        <div class="timeline-card">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <div class="role-company">
+              <h3 class="role-title">Python Full Stack Developer</h3>
+              <div class="company-name">Annular Technologies • Chennai, Tamil Nadu, India</div>
+            </div>
+            <div class="timeline-date">DECEMBER 2025 — PRESENT</div>
+          </div>
+
+          <div class="timeline-body">
+            <p class="timeline-intro">
+              Spearheading full-stack web applications and backend systems across diverse client portfolios, 
+              focusing on Python, FastAPI, Next.js, and distributed task queues.
+            </p>
+            <ul class="timeline-points">
+              <li>Engineered admissions workflows, fee installment calculation logic, and AI cheque OCR using Google Gemini and OpenAI APIs for <strong>OnCampusERP</strong>.</li>
+              <li>Orchestrated asynchronous event-driven notifications using <strong>Celery & Redis</strong>, integrating SendGrid, Twilio, and MSG91 providers.</li>
+              <li>Generated 100+ programmatic SSG airport landing hubs for <strong>ParcelGoGlobal</strong>, embedding automated XML sitemaps and structured schema.</li>
+              <li>Built and tested international Razorpay checkout pipelines, multi-currency conversion, and region-customized booking interfaces.</li>
+              <li>Diagnosed and eliminated cross-origin (CORS) bottlenecks, dynamic routing conflicts, and API authentication failures.</li>
+              <li>Managed production updates, custom domains, and edge routing via Vercel.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education Entry -->
+        <div class="timeline-card">
+          <div class="timeline-dot"></div>
+          <div class="timeline-header">
+            <div class="role-company">
+              <h3 class="role-title">Bachelor of Engineering (B.E.) — Computer Science and Engineering</h3>
+              <div class="company-name">University College of Engineering, BIT Campus • Anna University, Tiruchirappalli</div>
+            </div>
+            <div class="timeline-date">GRADUATED</div>
+          </div>
+          <div class="timeline-body">
+            <p class="timeline-intro">
+              Rigorous foundation in computer science theory, algorithms, database systems, object-oriented design, 
+              operating systems, computer networks, and full-stack software development.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 05: CONTACT & TERMINAL CONSOLE -->
+    <section class="section-block" id="contact">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <div>
+          <h2 class="section-heading">Terminal Console // Direct Connect</h2>
+          <p class="section-subtext">Open for full-time Software Engineer & Python Full-Stack roles (Chennai / Remote / Relocation).</p>
+        </div>
+      </div>
+
+      <div class="contact-terminal-wrapper">
+        
+        <div class="terminal-card">
+          <div class="terminal-bar">
+            <div class="terminal-dots">
+              <span class="t-dot red"></span>
+              <span class="t-dot yellow"></span>
+              <span class="t-dot green"></span>
+            </div>
+            <span class="terminal-title">bash — abdulkasim@chennai:~</span>
+          </div>
+
+          <div class="terminal-content">
+            <div class="terminal-line">
+              <span class="prompt">$</span> <span class="cmd">cat contact_card.json</span>
+            </div>
+            <div class="terminal-output">
+<pre class="json-output">
+{
+  <span class="k">"developer"</span>: <span class="s">"Abdul Kasim Ajmal Khan"</span>,
+  <span class="k">"title"</span>: <span class="s">"Software Engineer | Python Full-Stack"</span>,
+  <span class="k">"status"</span>: <span class="s">"Open to Opportunities (Immediate)"</span>,
+  <span class="k">"email"</span>: <span class="s">"abdulkasim.cs@gmail.com"</span>,
+  <span class="k">"phone"</span>: <span class="s">"+91 9750902696"</span>,
+  <span class="k">"location"</span>: <span class="s">"Chennai, Tamil Nadu, India"</span>,
+  <span class="k">"linkedin"</span>: <span class="s">"linkedin.com/in/abdulkasim-ajmalkhan"</span>
+}
+</pre>
+            </div>
+
+            <div class="contact-actions-grid">
+              <button class="contact-btn copy-btn" id="copy-email-btn" data-email="abdulkasim.cs@gmail.com">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span id="copy-text">Copy Email Address</span>
+              </button>
+
+              <a href="mailto:abdulkasim.cs@gmail.com" class="contact-btn mail-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span>Send Direct Email</span>
+              </a>
+
+              <a href="https://linkedin.com/in/abdulkasim-ajmalkhan" target="_blank" rel="noopener noreferrer" class="contact-btn linkedin-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                <span>LinkedIn Profile</span>
+              </a>
+
+              <a href="tel:+919750902696" class="contact-btn phone-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span>+91 9750902696</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Fast-Message Box -->
+        <div class="message-card">
+          <h3 class="msg-title">Send a Quick Message</h3>
+          <p class="msg-desc">Interested in discussing an engineering role or technical project? Leave a note.</p>
+          
+          <form class="msg-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name / Organization</label>
+              <input type="text" id="name" required placeholder="e.g. Hiring Manager at Tech Corp">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email Address</label>
+              <input type="email" id="email" required placeholder="name@company.com">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message / Opportunity Summary</label>
+              <textarea id="message" rows="4" required placeholder="Describe the role, tech stack, or engineering project..."></textarea>
+            </div>
+
+            <button type="submit" class="aw-pill-btn gold full-width">
+              <span class="btn-text">Transmit Transmission</span>
+              <span class="btn-arrow-circle">
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                  <path d="M2 8H14M14 8L8 2M14 8L8 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- AUSTIN WERNER STYLE FOOTER -->
+  <footer class="aw-footer">
+    <div class="footer-inner">
+      
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <span class="brand-monogram">AK</span>
+          <span>ABDUL KASIM AJMAL KHAN</span>
+        </div>
+        <p class="footer-tagline">
+          Software Developer specialized in Python, FastAPI, Next.js, and high-reliability cloud architectures.
+        </p>
+        <div class="footer-meta-pill">
+          <span>Based in Chennai, India</span>
+          <span class="dot-sep">•</span>
+          <span>Worldwide Remote</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-heading">Navigation</div>
+        <ul class="footer-links">
+          <li><a href="#specializations">Architectural Pillars</a></li>
+          <li><a href="#projects">Production Systems</a></li>
+          <li><a href="#stack">Technical Matrix</a></li>
+          <li><a href="#experience">Career History</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-heading">Core Competencies</div>
+        <ul class="footer-links">
+          <li><a href="#projects">OnCampusERP (CRM & AI OCR)</a></li>
+          <li><a href="#projects">ParcelGoGlobal (100+ SSG Hubs)</a></li>
+          <li><a href="#stack">FastAPI & Python Services</a></li>
+          <li><a href="#stack">Celery & Redis Worker Queues</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <div class="footer-heading">Direct Transmission</div>
+        <ul class="footer-links">
+          <li><a href="mailto:abdulkasim.cs@gmail.com">abdulkasim.cs@gmail.com</a></li>
+          <li><a href="tel:+919750902696">+91 9750902696</a></li>
+          <li><a href="https://linkedin.com/in/abdulkasim-ajmalkhan" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+          <li><a href="#contact">Terminal Console</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; 2026 Abdul Kasim Ajmal Khan. Engineered with Austin Werner Aesthetic Principles.</div>
+      <div class="credits">Clean Architecture • 100/100 Web Vitals • Dark Pitch Edition</div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

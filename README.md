@@ -1,82 +1,72 @@
 # Abdul Kasim Ajmal Khan — Software Engineer Portfolio
 
-> **High-Performance Dark Pitch Portfolio inspired by Austin Werner (`austinwerner.io`) technical aesthetics.**
+> **Production-grade Next.js 16 + TypeScript + Tailwind CSS + Framer Motion developer portfolio with minimalist Linear/Vercel-inspired tech aesthetics.**
 
 ---
 
-## ⚡ Overview
+## ⚡ Tech Stack
 
-A production-grade, brutalist developer portfolio engineered for **Abdul Kasim Ajmal Khan**, specializing in:
-- **Python & FastAPI** backend microservices
-- **Next.js & React** full-stack architectures
-- **Celery & Redis** asynchronous message queues & event notification pipelines
-- **AI OCR Integrations** (Google Gemini & OpenAI APIs)
-- **High-traffic programmatic SSG landing pages** (100+ airport logistics hubs)
-
----
-
-## 🎨 Design System & Aesthetic Features
-
-- **Palette**: Deep pitch black (`#060606`) with neon accents (`#FFD100` Gold, `#FF6D36` Hot Orange, `#2BC6D9` Electric Cyan).
-- **Typography**: 
-  - **Syne** (Ultra-bold geometric ink-trap display headings)
-  - **Space Grotesk** (Clean, technical monospaced-feel body font)
-  - **JetBrains Mono** (Code snippets, metrics, and terminal console)
-- **Dual-Persona Switcher**: Interactive switcher between **[Python & Backend Architecture]** and **[Full-Stack & Modern Web]**.
-- **Frosted Glass Navigation**: Glassmorphism navbar with signature yellow micro-dot separators and live availability indicator (`🟢 Open to Offers`).
-- **Interactive Terminal Console**: Embedded bash terminal with copy-to-clipboard functionality and simulated direct message transmission.
-- **100/100 Lighthouse Performance**: Zero external heavy libraries, pure semantic HTML5, Vanilla CSS3, and modern JavaScript.
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **UI & Logic**: React 19, TypeScript
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: Geist Sans, Geist Mono, Space Grotesk
 
 ---
 
-## 📁 Repository Structure
+## 🌟 Interactive Features
 
-```
-├── index.html       # Complete semantic HTML5 structure & SEO tags
-├── index.css        # Austin Werner design system & responsive styles
-├── app.js           # Dual-persona switcher, terminal & copy interactions
-└── README.md        # Documentation & deployment guide
-```
+1. **Dual Persona Switcher**:
+   - `[Mode: Python & Backend Architecture]` ➔ Dynamic accent shifts to warm amber/orange, highlighting FastAPI, Celery, Redis async message queues, and PostgreSQL.
+   - `[Mode: Full-Stack & Modern Web]` ➔ Dynamic accent shifts to electric cyan, highlighting Next.js 16 SSG, React, and multimodal AI OCR.
+2. **Glassmorphic Floating Navbar**:
+   - Dynamic backdrop blur, live active section observer, and pulsating availability badge (`🟢 Open for Roles`).
+3. **Featured Production Systems**:
+   - **OnCampusERP**: Enterprise admissions CRM, dynamic form builders, fee installment schedules, and AI cheque OCR using **Google Gemini & OpenAI APIs**.
+   - **ParcelGoGlobal**: 100+ programmatically generated airport SSG landing pages, automated XML sitemaps, structured schema, and **Razorpay** multi-currency checkout.
+   - **Multi-Client Portal Suite**: Enterprise client applications (Rajwaa, Epiphany, RCEW, MFDLeap) with CORS and routing fixes.
+4. **Categorized Skills Matrix**:
+   - 6 clean interactive categories with category icons and individual chip hover glows.
+5. **Interactive Terminal Console**:
+   - Mac-style bash terminal with JSON profile output.
+   - One-click copy email address (`abdulkasim.cs@gmail.com`) with animated confirmation.
+   - Direct mail, phone, and LinkedIn action triggers.
+   - Fast transmission opportunity submission form.
 
 ---
 
 ## 🚀 Running Locally
 
-No installation or build steps required. Simply open `index.html` in your favorite browser:
-
 ```bash
-# Option 1: Directly open in browser
-open index.html
+# 1. Install dependencies (already installed locally)
+npm install
 
-# Option 2: Run a quick local server
-python3 -m http.server 8080
-# Visit http://localhost:8080
+# 2. Run the development server
+npm run dev
 ```
+
+Open [http://localhost:3000](http://localhost:3000) (or `http://localhost:3001`) in your browser.
 
 ---
 
-## 🌐 One-Click Deployment
+## 🌐 Deploying to Vercel (Recommended)
 
-### Deploy on Vercel
+Because this is a native **Next.js** application, Vercel gives you instant zero-config deployments, automatic edge caching, and serverless API support:
+
 1. Push to your GitHub repository:
    ```bash
    git add .
-   git commit -m "feat: complete portfolio codebase"
+   git commit -m "feat: complete Next.js portfolio"
    git push origin main
    ```
-2. Import the repository on [Vercel](https://vercel.com/new).
-3. Framework Preset: **Other** (Static HTML).
+2. Go to [vercel.com/new](https://vercel.com/new) and select `abdulkasim-dev/Portfolio-`.
+3. Framework Preset: **Next.js** (Automatically detected).
 4. Click **Deploy**.
-
-### Deploy on GitHub Pages
-1. Go to repository **Settings** → **Pages**.
-2. Under **Build and deployment** > **Source**, select `Deploy from a branch`.
-3. Choose branch `main` and folder `/ (root)`.
-4. Click **Save**. Your site will be live at `https://abdulkasim-dev.github.io/Portfolio-/`.
 
 ---
 
-## 📬 Contact Information
+## 📬 Contact
 
 - **Developer**: Abdul Kasim Ajmal Khan
 - **Email**: [abdulkasim.cs@gmail.com](mailto:abdulkasim.cs@gmail.com)

@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Abdul Kasim Ajmal Khan - Software Engineer Portfolio (Austin Werner Aesthetic)",
+  "scripts": {
+    "dev": "npx serve -l 3001 .",
+    "start": "npx serve -l 3001 .",
+    "preview": "open index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "python",
+    "fastapi",
+    "nextjs"
+  ],
+  "author": "Abdul Kasim Ajmal Khan",
+  "license": "MIT"
+}
